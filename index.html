@@ -40,9 +40,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">A PROPOS NOUS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
+              <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
+           
             </ul>
           </div>
         </div>
@@ -333,68 +332,9 @@ de la gestion axéesur les résultats des programmes publics, la performance, la
 
 
                              <!-- debut formulaire d'inscription Rucien -->  
-
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Formulaire d'inscription</button>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Inscription</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Nom</label>
-            <input type="text" class="form-control" id="recipient-nom">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Prenom</label>
-            <input type="text" class="form-control" id="recipient-prenom">
-          </div>
-          <div class="mb-3">
-           <label for="message-text" class="col-form-label">Sexe</label>
-           <input type="text" class="form-control" id="recipient-sexe">
-          </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Age</label>
-            <input type="text" class="form-control" id="recipient-nom">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Prenom</label>
-            <input type="nomber" class="form-control" id="recipient-age">
-          </div>
-          <div class="mb-3">
-           <label for="message-text" class="col-form-label">Profession</label>
-           <input type="text" class="form-control" id="recipient-profession">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Email</label>
-            <input type="nomber" class="form-control" id="recipient-age">
-          </div>
-          <div class="mb-3">
-           <label for="message-text" class="col-form-label">Telphone</label>
-           <input type="text" class="form-control" id="recipient-profession">
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-        <button type="button" class="btn btn-primary">Envoyer</button>
-      </div>
-    </div>
-    
-  </div>
-</div>
-
-
-                          <!-- Fin formulaire -->  
-
-
-
-
-                       <!-- debut processus d'niscription Rucien -->     
-<div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="container d-flex">
+ <!-- debut processus d'niscription Rucien -->     
+ <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-left: 300px;">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <h3> Processus d'Inscription</h3>
@@ -429,8 +369,73 @@ de la gestion axéesur les résultats des programmes publics, la performance, la
 </div>
 
                      <!-- Fin processus d'inscription -->  
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Formulaire d'inscription</button>
+                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalLabel">Inscription</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <form>
+                               <div class="mb-3">
+                                 <label for="recipient-name" class="col-form-label">Nom</label>
+                                 <input type="text" class="form-control" id="recipient-nom">
+                               </div>
+                               <div class="mb-3">
+                                 <label for="message-text" class="col-form-label">Prenom</label>
+                                 <input type="text" class="form-control" id="recipient-prenom">
+                               </div>
+                               <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Sexe</label>
+                                <input type="text" class="form-control" id="recipient-sexe">
+                               </div>
+                               <div class="mb-3">
+                                 <label for="recipient-name" class="col-form-label">Age</label>
+                                 <input type="text" class="form-control" id="recipient-nom">
+                               </div>
+                               <div class="mb-3">
+                                 <label for="message-text" class="col-form-label">Prenom</label>
+                                 <input type="nomber" class="form-control" id="recipient-age">
+                               </div>
+                               <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Profession</label>
+                                <input type="text" class="form-control" id="recipient-profession">
+                               </div>
+                               <div class="mb-3">
+                                 <label for="message-text" class="col-form-label">Email</label>
+                                 <input type="nomber" class="form-control" id="recipient-age">
+                               </div>
+                               <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Telphone</label>
+                                <input type="text" class="form-control" id="recipient-profession">
+                               </div>
+                             </form>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                             <button type="button" class="btn btn-primary">Envoyer</button>
+                           </div>
+                         </div>
+                         
+                       </div>
+                     </div>
+                     
+                     
+                                               <!-- Fin formulaire -->  
+                     
+                     
+                     
+                     
+      </div>
 
 
+                      
+
+
+
+  
 
                <!-- debut de alumnis Rucien -->     
 
